@@ -207,6 +207,7 @@ footer{
 	text-align: center;
 	letter-spacing: 0.03em;
 	cursor: pointer;
+	padding: 6px 22px;
 }
 
 .filter-list__button:hover,

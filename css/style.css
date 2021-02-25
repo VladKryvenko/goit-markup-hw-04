@@ -105,5 +105,33 @@ body{
 	cursor: pointer;
 }
 
-
 /*============END HERO============*/
+
+/*============PRINCIPLES============*/
+
+.primary-header{
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--main-text-color); 
+}
+
+.principles__secondary-header{
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.principles__text{
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+
+
+/*============END PRINCIPLES============*/

@@ -31,7 +31,6 @@ address{
 	color: var(--main-text-color); 
 }
 
-
 /*============HEADER============*/
 
 .logo{
@@ -91,6 +90,7 @@ address{
 	text-transform: uppercase;
 	color: #FFFFFF;
 	width: 696px;
+	margin: auto;
 }
 
 .hero__button{
@@ -190,3 +190,53 @@ footer{
 	color: #FFFFFF;
 }
 /*============END FOOTER============*/
+
+
+/*============PORTFOLIO============*/
+
+
+.filter-list__button{
+	height: 38px;
+	border-radius: 4px;
+	border: none;
+	background: #F5F4FA;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+	letter-spacing: 0.03em;
+	cursor: pointer;
+}
+
+.filter-list__button:hover,
+.filter-list__button:focus{
+	background: var(--accent-color);
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+	color: #FFFFFF;
+}
+
+.projects-list__item{
+	width: 370px;
+	border: 1px solid #EEEEEE;
+}
+
+.projects-list__header{
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: var(--main-text-color);
+}
+
+.projects-list__text{
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+
+header::after{
+	content: '';
+	display: block;
+	border-bottom: 1px solid #ECECEC;
+}

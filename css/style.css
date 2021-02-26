@@ -118,6 +118,11 @@ address{
 
 /*============PRINCIPLES============*/
 
+.principles__header{
+	visibility: hidden;
+	position: absolute;
+}
+
 .principles__secondary-header{
 	font-weight: 700;
 	font-size: 14px;
@@ -195,6 +200,11 @@ footer{
 
 /*============PORTFOLIO============*/
 
+
+.main-section__header{
+	visibility: hidden;
+	position: absolute;
+}
 
 .filter-list__button{
 	height: 38px;

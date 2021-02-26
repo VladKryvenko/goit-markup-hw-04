@@ -3,6 +3,8 @@
 	--secondary-font: 'Raleway', sans-serif;
 	--accent-color: #2196F3;
 	--main-text-color: #212121;
+	--secondary-text-color: #757575;
+;
 }
 
 body{
@@ -63,6 +65,7 @@ address{
 	font-size: 14px;
 	line-height: 1.14px;
 	letter-spacing: 0.02em;
+	color: var(--secondary-text-color);
 }
 
 .navigation-list__link:hover,
@@ -135,7 +138,7 @@ address{
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
-	color: #757575;
+	color: var(--secondary-text-color);
 	width: 270px;
 }
 
@@ -168,7 +171,7 @@ address{
 	line-height: 1.19;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: #757575;
+	color: var(--secondary-text-color);
 }
 
 
@@ -245,7 +248,7 @@ footer{
 	font-size: 16px;
 	line-height: 1.88;
 	letter-spacing: 0.03em;
-	color: #757575;
+	color: var(--secondary-text-color);
 }
 
 header::after{

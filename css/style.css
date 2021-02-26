@@ -209,6 +209,10 @@ footer{
 	position: absolute;
 }
 
+.filter-list__item{
+	margin: 0 0 8px;
+}
+
 .filter-list__button{
 	height: 38px;
 	border-radius: 4px;

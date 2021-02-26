@@ -230,6 +230,7 @@ footer{
 .projects-list__item{
 	width: 370px;
 	border: 1px solid #EEEEEE;
+	margin: 0 0 24px;
 }
 
 .projects-list__header{

@@ -1,1 +1,1 @@
-https://vladkryvenko.github.io/goit-markup-hw-02/index.html
+https://vladkryvenko.github.io/goit-markup-hw-03/index.html

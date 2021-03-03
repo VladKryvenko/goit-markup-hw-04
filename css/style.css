@@ -51,7 +51,6 @@ address{
 .wrap{
 	width: 1200px;
 	margin: 0 auto;
-	padding: 0 15px;
 }
 
 .flex-container{
@@ -61,7 +60,7 @@ address{
 /*============HEADER============*/
 
 .header-wrap{
-	padding: 24px 0 25px;
+	padding: 25px 15px;
 }
 
 .logo{
@@ -170,6 +169,7 @@ address{
 	align-items: center;
 	justify-content: center;
 	height: 600px;
+	padding: 0 15px;
 }
 
 .hero__button:hover,

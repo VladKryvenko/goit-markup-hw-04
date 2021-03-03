@@ -11,32 +11,36 @@
 </head>
 <body>
 	<header>
-		<nav class="navigation">
-			<a href="index.html" class="logo link"><span class="logo__first-part">Web</span>Studio</a>
-			<ul class="navigation-list list">
-				<li class="navigation-list__item">
-					<a href="index.html" class="navigation-list__link link current">Студия</a> 
+		<div class="wrap header-wrap flex-container">
+			<nav class="navigation">
+				<a href="index.html" class="logo link"><span class="logo__first-part">Web</span>Studio</a>
+				<ul class="navigation-list list">
+					<li class="navigation-list__item">
+						<a href="index.html" class="navigation-list__link link current">Студия</a> 
+					</li>
+					<li class="navigation-list__item">
+						<a href="portfolio.html" class="navigation-list__link link">Портфолио</a> 
+					</li>
+					<li class="navigation-list__item">
+						<a href="#" class="navigation-list__link link">Контакты</a> 
+					</li>
+				</ul>
+			</nav>
+			<ul class="header-contacts list">
+				<li class="header-contacts__item">
+					<a href="mailto:info@devstudio.com" class="header-contacts__link link">info@devstudio.com</a>
 				</li>
-				<li class="navigation-list__item">
-					<a href="portfolio.html" class="navigation-list__link link">Портфолио</a> 
-				</li>
-				<li class="navigation-list__item">
-					<a href="#" class="navigation-list__link link">Контакты</a> 
+				<li class="header-contacts__item">
+					<a href="tel:+380961111111" class="header-contacts__link link"> +38 096 111 11 11</a>
 				</li>
 			</ul>
-		</nav>
-		<ul class="header-contacts list">
-			<li class="header-contacts__item">
-				<a href="mailto:info@devstudio.com" class="header-contacts__link link">info@devstudio.com</a>
-			</li>
-			<li class="header-contacts__item">
-				<a href="tel:+380961111111" class="header-contacts__link link"> +38 096 111 11 11</a>
-			</li>
-		</ul>
+		</div>
 	</header>
 	<section class="hero">
+		<div class="wrap flex-container hero-wrap">
 			<h1 class="hero__header">Эффективные решения для вашего бизнеса</h1>
 			<button type="button" class="hero__button">Заказать услугу</button>
+		</div>	
 	</section>
 	<main>
 		<section class="principles">

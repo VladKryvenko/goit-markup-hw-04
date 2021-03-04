@@ -147,7 +147,7 @@ address{
 	height: 600px;
 	background-color: #2F303A;
 	width: 100%;
-	margin-bottom: 94px;
+/*	margin-bottom: 94px;*/
 }
 
 .hero__header{
@@ -191,7 +191,9 @@ address{
 /*============PRINCIPLES============*/
 
 .principles{
-	margin-bottom: 94px;
+	/*margin-bottom: 94px;*/
+	padding-top: 94px;
+	padding-bottom: 94px;
 }
 
 .principles__header{
@@ -232,7 +234,8 @@ address{
 /*============ABOUT============*/
 
 .about{
-	margin-bottom: 94px;
+	padding-bottom: 94px;
+	/*margin-bottom: 94px;*/
 }
 
 .img-list{

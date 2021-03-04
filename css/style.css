@@ -141,13 +141,16 @@ address{
 /*============HERO============*/
 
 .hero{
+	width: 100%;
+	background-color: #2F303A;
+}
+
+.hero > .flex-container{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 600px;
-	background-color: #2F303A;
-	width: 100%;
-/*	margin-bottom: 94px;*/
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 
 .hero__header{
@@ -191,7 +194,6 @@ address{
 /*============PRINCIPLES============*/
 
 .principles{
-	/*margin-bottom: 94px;*/
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
@@ -235,7 +237,6 @@ address{
 
 .about{
 	padding-bottom: 94px;
-	/*margin-bottom: 94px;*/
 }
 
 .img-list{

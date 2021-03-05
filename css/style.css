@@ -195,7 +195,7 @@ address{
 
 .principles{
 	padding-top: 94px;
-	padding-bottom: 47px;
+	padding-bottom: 94px;
 }
 
 .principles__header{
@@ -236,7 +236,6 @@ address{
 /*============ABOUT============*/
 
 .about{
-	padding-top: 47px;
 	padding-bottom: 94px;
 }
 

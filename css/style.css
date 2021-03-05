@@ -195,7 +195,7 @@ address{
 
 .principles{
 	padding-top: 94px;
-	padding-bottom: 94px;
+	padding-bottom: 47px;
 }
 
 .principles__header{
@@ -236,6 +236,7 @@ address{
 /*============ABOUT============*/
 
 .about{
+	padding-top: 47px;
 	padding-bottom: 94px;
 }
 
@@ -339,14 +340,23 @@ footer{
 
 /*============PORTFOLIO============*/
 
+.projects{
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
 
-.main-section__header{
+.projects__header{
 	visibility: hidden;
 	position: absolute;
 }
 
-.filter-list__item{
-	margin: 0 0 8px;
+.filter-list{
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.filter-list__item:not(:last-child){
+	margin-right: 8px;
 }
 
 .filter-list__button{
@@ -370,10 +380,25 @@ footer{
 	color: #FFFFFF;
 }
 
+.projects-list{
+	margin-top: -30px;
+	margin-right: -30px;
+	flex-wrap: wrap;
+}
+
 .projects-list__item{
-	width: 370px;
+	margin-top: 30px;
+	margin-right: 30px;
+	flex-basis: calc(100% / 3 - 30px);
+}
+
+.projects-list__link{
+}
+
+.projects__wrapper{
+	padding: 20px 24px;
 	border: 1px solid #EEEEEE;
-	margin: 0 0 24px;
+	border-top: none;
 }
 
 .projects-list__header{
@@ -382,6 +407,7 @@ footer{
 	line-height: 2;
 	letter-spacing: 0.06em;
 	color: var(--main-text-color);
+	margin-bottom: 4px;
 }
 
 .projects-list__text{
@@ -391,7 +417,7 @@ footer{
 	color: var(--secondary-text-color);
 }
 
-.line::after{
+header::after{
 	content: '';
 	display: block;
 	border-bottom: 1px solid #ECECEC;

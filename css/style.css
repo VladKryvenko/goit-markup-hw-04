@@ -148,7 +148,7 @@ address{
 .hero-bg-wrap{
 	max-width: 1600px;
 	margin: 0 auto;
-	background-image: url(../images/hero-overlay.png), url(../images/hero-bg.jpg);
+	background-image: linear-gradient(180deg, rgba(47,48,58,0.4) 0%, rgba(47,48,58,0.4) 100%), url(../images/hero-bg.jpg);
 }
 
 .hero-bg-wrap .flex-container{

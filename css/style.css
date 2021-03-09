@@ -143,10 +143,15 @@ address{
 
 .hero{
 	width: 100%;
-	background-color: #2F303A;
 }
 
-.hero > .flex-container{
+.hero-bg-wrap{
+	max-width: 1600px;
+	margin: 0 auto;
+	background-image: url(../images/hero-overlay.png), url(../images/hero-bg.jpg);
+}
+
+.hero-bg-wrap .flex-container{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;

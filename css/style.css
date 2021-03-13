@@ -377,14 +377,15 @@ address{
     color: #AFB1B8;
 }
 
-.clients-list__link:hover,
-.clients-list__link:focus{
+.clients-list__item:hover,
+.clients-list__item:focus{
 	color: var(--accent-color);
+	border-color: var(--accent-color);
 }
 
-.clients-list__link:hover .clients-list__item,
-.clients-list__link:focus .clients-list__item{
-	border-color: var(--accent-color);
+.clients-list__item:hover .clients-list__link,
+.clients-list__item:focus .clients-list__link{
+	color: var(--accent-color);
 }
 
 .clients-list__item{

@@ -378,6 +378,7 @@ address{
     justify-content: center;
     color: #AFB1B8;
     outline: none;
+    border: 1px solid #AFB1B8;
 }
 
 /*.clients-list__item:hover,
@@ -399,7 +400,6 @@ address{
 }
 
 .clients-list__item{
-	border: 1px solid #AFB1B8;
 	border-radius: 4px;
 	margin-left: 30px;
     flex-basis: calc(100% / 6 - 30px);

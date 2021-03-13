@@ -327,6 +327,10 @@ address{
 	color: var(--secondary-text-color);
 }
 
+.social-container__icon{
+	fill: currentColor;
+}
+
 
 /*============END TEAM============*/
 

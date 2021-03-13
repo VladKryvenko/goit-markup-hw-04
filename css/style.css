@@ -336,6 +336,9 @@ address{
 	color: #AFB1B8;
 	border-radius: 50%;
 	overflow: hidden;
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .social-container__link:not(:last-child){

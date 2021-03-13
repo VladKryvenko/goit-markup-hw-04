@@ -374,6 +374,11 @@ address{
 }
 
 .clients-list__item{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #AFB1B8;
+	border-radius: 4px;
 	padding: 20px 0;
 	margin-left: 30px;
     flex-basis: calc(100% / 6 - 30px);

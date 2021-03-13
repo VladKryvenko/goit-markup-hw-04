@@ -341,7 +341,7 @@ address{
     justify-content: center;
 }
 
-.social-container__link:not(:last-child){
+.social-container__item:not(:last-child){
 	margin-right: 10px;
 }
 

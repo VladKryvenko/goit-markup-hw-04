@@ -135,6 +135,7 @@ address{
 }
 
 .smartphone{
+	fill: tomato;
 	width: 10px;
 	height: 16px;
 }

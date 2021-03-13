@@ -299,6 +299,12 @@ address{
 	flex-basis: calc(100% / 4 - 30px);
 }
 
+.team__social-container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
 .team-list__wrapper{
 	padding: 30px 15px;
 }

@@ -341,6 +341,12 @@ address{
     justify-content: center;
 }
 
+.social-container__link:hover,
+.social-container__link:focus{
+	color: #fff;
+	background: var(--accent-color);
+}
+
 .social-container__item:not(:last-child){
 	margin-right: 10px;
 }

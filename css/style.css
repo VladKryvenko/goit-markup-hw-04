@@ -377,17 +377,25 @@ address{
     align-items: center;
     justify-content: center;
     color: #AFB1B8;
+    outline: none;
 }
 
 .clients-list__item:hover,
 .clients-list__item:focus{
 	color: var(--accent-color);
-	border-color: var(--accent-color);
+	border: 1px solid var(--accent-color);
 }
 
 .clients-list__item:hover .clients-list__link,
 .clients-list__item:focus .clients-list__link{
 	color: var(--accent-color);
+	border: 1px solid var(--accent-color);
+}
+
+.clients-list__link:hover,
+.clients-list__link:focus{
+	color: var(--accent-color);
+	border: 1px solid var(--accent-color);
 }
 
 .clients-list__item{

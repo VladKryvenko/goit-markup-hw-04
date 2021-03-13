@@ -380,7 +380,7 @@ address{
     outline: none;
 }
 
-.clients-list__item:hover,
+/*.clients-list__item:hover,
 .clients-list__item:focus{
 	color: var(--accent-color);
 	border: 1px solid var(--accent-color);
@@ -390,7 +390,7 @@ address{
 .clients-list__item:focus .clients-list__link{
 	color: var(--accent-color);
 	border: 1px solid var(--accent-color);
-}
+}*/
 
 .clients-list__link:hover,
 .clients-list__link:focus{

@@ -301,12 +301,10 @@ address{
 
 .team__social-container{
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
 }
 
 .team-list__wrapper{
-	padding: 30px 15px;
+	padding: 30px 32px;
 }
 
 .team-list__header{
@@ -322,6 +320,7 @@ address{
 .team-list__text{
 	font-size: 16px;
 	line-height: 1.19;
+	margin-bottom: 16px;
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--secondary-text-color);
@@ -329,6 +328,18 @@ address{
 
 .social-container__icon{
 	fill: currentColor;
+}
+
+.social-container__link{
+	width: 44px;
+	height: 44px;
+	color: #AFB1B8;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.social-container__link:not(:last-child){
+	margin-right: 10px;
 }
 
 

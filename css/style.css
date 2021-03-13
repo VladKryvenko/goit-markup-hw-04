@@ -379,19 +379,8 @@ address{
     color: #AFB1B8;
     outline: none;
     border: 1px solid #AFB1B8;
+    border-radius: 4px;
 }
-
-/*.clients-list__item:hover,
-.clients-list__item:focus{
-	color: var(--accent-color);
-	border: 1px solid var(--accent-color);
-}
-
-.clients-list__item:hover .clients-list__link,
-.clients-list__item:focus .clients-list__link{
-	color: var(--accent-color);
-	border: 1px solid var(--accent-color);
-}*/
 
 .clients-list__link:hover,
 .clients-list__link:focus{
@@ -400,7 +389,6 @@ address{
 }
 
 .clients-list__item{
-	border-radius: 4px;
 	margin-left: 30px;
     flex-basis: calc(100% / 6 - 30px);
 }

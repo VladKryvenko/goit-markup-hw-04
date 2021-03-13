@@ -123,6 +123,7 @@ address{
 
 .header-contacts__link{
 	display: flex;
+	align-items: center;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
@@ -213,6 +214,15 @@ address{
 .principles__header{
 	visibility: hidden;
 	position: absolute;
+}
+
+.principles-icon__container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 25px;
+	margin-bottom: 30px;
+	background: #F5F4FA;
 }
 
 .principles__secondary-header{

@@ -129,6 +129,17 @@ address{
 	color: var(--secondary-text-color);
 }
 
+.envelope{
+	width: 16px;
+	height: 12px;
+}
+
+.smartphone{
+	width: 10px;
+	height: 16px;
+}
+
+
 .navigation-list__link:hover,
 .navigation-list__link:focus,
 .header-contacts__link:hover,

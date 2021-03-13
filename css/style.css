@@ -380,6 +380,10 @@ address{
 .clients-list__link:hover,
 .clients-list__link:focus{
 	color: var(--accent-color);
+}
+
+.clients-list__link:hover .clients-list__item,
+.clients-list__link:focus .clients-list__item{
 	border-color: var(--accent-color);
 }
 

@@ -361,6 +361,24 @@ address{
 	padding-bottom: 94px;
 }
 
+.clients-list__icon{
+	fill: currentColor;
+}
+
+.clients-list{
+	margin-left: -30px;
+}
+
+.clients-list__link{
+	width: 100%;
+}
+
+.clients-list__item{
+	padding: 20px 0;
+	margin-left: 30px;
+    flex-basis: calc(100% / 6 - 30px);
+}
+
 /*============END CLIENTS============*/
 
 /*============FOOTER============*/

@@ -452,6 +452,10 @@ footer{
 .footer__social-container{
 	display: flex;
 }
+
+footer ~ .social-container__link{
+	background: rgba(255, 255, 255, 0.1);
+}
 /*============END FOOTER============*/
 
 

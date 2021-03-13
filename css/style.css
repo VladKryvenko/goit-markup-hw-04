@@ -371,12 +371,19 @@ address{
 
 .clients-list__link{
 	width: 100%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #AFB1B8;
+}
+
+.clients-list__link:hover,
+.clients-list__link:focus{
+	color: var(--accent-color);
+	border-color: var(--accent-color);
 }
 
 .clients-list__item{
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	border: 1px solid #AFB1B8;
 	border-radius: 4px;
 	padding: 20px 0;

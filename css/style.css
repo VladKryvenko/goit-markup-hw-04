@@ -129,17 +129,10 @@ address{
 	color: var(--secondary-text-color);
 }
 
-.envelope{
-	width: 16px;
-	height: 12px;
-}
 
-.smartphone{
-	fill: tomato;
-	width: 10px;
-	height: 16px;
+.header-contacts__icon{
+	fill: currentColor;
 }
-
 
 .navigation-list__link:hover,
 .navigation-list__link:focus,
